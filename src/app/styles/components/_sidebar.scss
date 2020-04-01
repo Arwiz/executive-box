@@ -1,0 +1,7 @@
+.cr-sidebar-close {
+  width: $cr-sidebar-close;
+ }
+.cr-sidebar-open {
+    @extend .cr-sidebar-close;
+    width: $cr-sidebar-open;
+}
